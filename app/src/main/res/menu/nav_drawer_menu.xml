@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  xmlns:tools="http://schemas.android.com/tools" -->
+    <!--  tools:showIn="navigation_view">-->
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_attendence"
+            android:title="Attendence"
+            android:icon="@drawable/ic_attendence"/>
+
+
+        <item
+            android:id="@+id/nav_report_card"
+            android:title="Report Card"
+            android:icon="@drawable/ic_report_card"/>
+        <item
+            android:id="@+id/nav_event"
+            android:title="Event"
+            android:icon="@drawable/ic_event"/>
+
+    </group>
+    <item android:title="EXIT">
+        <menu>
+
+
+            <item android:id="@+id/btnLogout"
+                android:title="Logout"
+             />
+
+
+        </menu>
+
+
+    </item>
+</menu>
+
